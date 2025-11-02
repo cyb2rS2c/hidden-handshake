@@ -48,6 +48,6 @@ foreach ($profile in $profiles) {
 
 # Output results in table format
 Write-Host ""
-Write-Host "📶 Saved Wi-Fi Profiles (by cyb2rS2c)" -ForegroundColor Cyan
+Write-Host "Saved Wi-Fi Profiles (by cyb2rS2c)" -ForegroundColor Cyan
 Write-Host "------------------------------------"
 $results | Format-Table Profile, Key -AutoSize
