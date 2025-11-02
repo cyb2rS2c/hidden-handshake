@@ -16,7 +16,7 @@ This is intended for **legitimate recovery of your own Wi-Fi credentials** and f
 
 For windows using powershell:
 ```bash  
-curl -o CacheRaider.zip  https://github.com/cyb2rS2c/hidden-handshake/archive/refs/heads/main.zip
+curl -o hidden-handshake.zip  https://github.com/cyb2rS2c/hidden-handshake/archive/refs/heads/main.zip
 Expand-Archive -Force  .\hidden-handshake.zip
 cd hidden-handshake/hidden-handshake-main
 ```
