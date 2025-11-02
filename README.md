@@ -37,7 +37,7 @@ cd hidden-handshake/hidden-handshake-main
 
 * **Only run this on machines you own or administer.**
 * **Do not** use this tool to access networks or systems you are not authorized to access.
-* Exposing Wi-Fi keys in clear text is sensitive — treat outputs as confidential.
+* Exposing Wi-Fi keys in clear text is sensitive - treat outputs as confidential.
 * Use caution when storing or sharing results.
 
 ---
