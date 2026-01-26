@@ -1,7 +1,8 @@
 # hidden-handshake
-A small PowerShell utility that enumerates saved Windows Wi-Fi profiles and reveals their stored keys (passwords) when available.
 
-## 📜 Overview
+> A small PowerShell utility that enumerates saved Windows Wi-Fi profiles and reveals their stored keys (passwords) when available.
+
+## Overview
 
 `hidden-handshake` uses Windows' built-in `netsh wlan` to:
 
@@ -21,7 +22,7 @@ Expand-Archive -Force  .\hidden-handshake.zip
 cd hidden-handshake/hidden-handshake-main
 ```
 
-## 🚀 Usage
+## Usage
 
 1. Open **PowerShell** **as Administrator** (required to view keys for some profiles).
 
@@ -33,7 +34,7 @@ cd hidden-handshake/hidden-handshake-main
 
 ---
 
-## ⚠️ Security & Legal Notice
+## Security & Legal Notice
 
 * **Only run this on machines you own or administer.**
 * **Do not** use this tool to access networks or systems you are not authorized to access.
@@ -42,14 +43,14 @@ cd hidden-handshake/hidden-handshake-main
 
 ---
 
-## 🧩 Example output
+## Example output
 
 ```
 Wi-Fi Profile: HomeNetwork
-Key Content            : MyHomePassword123
+Key Content: MyHomePassword123
 ---------------------------
 Wi-Fi Profile: CoffeeShopWiFi
-Key Content            : freewifi
+Key Content: freewifi
 ---------------------------
 ```
 
@@ -63,7 +64,7 @@ Key Content            : freewifi
 
 ---
 
-## 📝 Author
+## Author
 cyb2rS2c - [GitHub Profile](https://github.com/cyb2rS2c)
 
 ## License
